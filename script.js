@@ -95,3 +95,20 @@ console.log(podres);
 let procura = frutinhass.includes("Banana", "Tangerina"); //Procura se está na lista.
 console.log(procura);
 
+//Para tirar os dois primeiros números
+const input = require('prompt-sync')();
+
+let ano = input('Digite um valor: ');
+
+let arrayNumero = ano.split("");
+
+console.log("Array antes de remover elementos:", arrayNumero);
+
+arrayNumero.shift(); 
+arrayNumero.shift(); 
+
+console.log("Array após remover elementos:", arrayNumero);
+
+arrayNumero.join();
+
+console.log(arrayNumero)
